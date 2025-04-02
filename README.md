@@ -42,7 +42,7 @@ Asegúrate de tener instalados los siguientes componentes en tu sistema:
     Si deseas probar los servicios disponibles y usar VS Code puedes usar este plugin `https://marketplace.visualstudio.com/items?itemName=humao.rest-client` y usar el archivo test.http que descargas con el repo
 
 
-## Pruebas
+## Pruebas Unitarias
 
 Para ejecutar las pruebas, utiliza el siguiente comando:
 ```bash
