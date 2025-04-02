@@ -1,0 +1,10 @@
+@import "tailwindcss";
+body{
+    @apply text-gray-900 bg-gray-100
+}
+.inputText{
+    @apply border border-gray-500 rounded-lg px-4 h-10 leading-[38px]
+}
+.selectCustom{
+    @apply border border-gray-500 rounded-lg px-4 h-10 leading-[38px]
+}

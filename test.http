@@ -1,0 +1,55 @@
+GET http://localhost:8080/products HTTP/1.1
+
+### filters
+
+GET http://localhost:8080/products?name=r&category=1&price_min=1&price_max=120 HTTP/1.1
+
+### 
+GET http://localhost:8080/products/2 HTTP/1.1
+
+### 
+POST http://localhost:8080/product/create HTTP/1.1
+content-type: application/json
+
+{
+    "name": "",
+    "price": 40,
+    "stock": 120,
+    "category_id": 2,
+    "description": "Radio portatil"
+}
+
+### 
+PUT http://localhost:8080/products/2 HTTP/1.1
+content-type: application/json
+
+{
+    "price": 120
+}
+
+
+### CATEGORIES
+
+GET http://localhost:8080/categories HTTP/1.1
+
+###
+
+GET http://localhost:8080/categories/2 HTTP/1.1
+
+###
+
+POST http://localhost:8080/category/create HTTP/1.1
+content-type: application/json
+
+{
+    "name": ""
+}
+
+###
+
+PUT http://localhost:8080/categories/2 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Home"
+}
