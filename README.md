@@ -44,7 +44,7 @@ Asegúrate de tener instalados los siguientes componentes en tu sistema:
 
 ## Pruebas Unitarias
 
-Para ejecutar las pruebas, cree una base de datos de prueba apra no interferir con la principal y en la ruta `/config/test.db.php` coloca el nombre de la base de datos luego  utiliza el siguiente comando:
+Para ejecutar las pruebas, cree una base de datos de prueba apra no interferir con la principal y en la ruta `/config/test_db.php` coloca el nombre de la base de datos luego  utiliza el siguiente comando:
 ```bash
 php tests/bin/yii migrate --interactive=0
 php vendor/bin/codecept run
