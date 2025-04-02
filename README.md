@@ -15,7 +15,7 @@ Asegúrate de tener instalados los siguientes componentes en tu sistema:
 
 1. **Clonar el repositorio**
     ```bash
-    git clone https://github.com/usuario/yii-test.git
+    git clone https://github.com/johanp345/test-oberstaff.git
     cd yii-test
     ```
 
