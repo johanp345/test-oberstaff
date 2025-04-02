@@ -46,6 +46,7 @@ Asegúrate de tener instalados los siguientes componentes en tu sistema:
 
 Para ejecutar las pruebas, utiliza el siguiente comando:
 ```bash
+php tests/bin/yii migrate --interactive=0
 php vendor/bin/codecept run
 ```
 
