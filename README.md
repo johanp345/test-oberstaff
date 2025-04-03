@@ -15,7 +15,7 @@ Asegúrate de tener instalados los siguientes componentes en tu sistema:
 
 1. **Clonar el repositorio**
     ```bash
-    git clone https://github.com/usuario/yii-test.git
+    git clone https://github.com/johanp345/test-oberstaff.git
     cd yii-test
     ```
 
@@ -44,7 +44,7 @@ Asegúrate de tener instalados los siguientes componentes en tu sistema:
 
 ## Pruebas Unitarias
 
-Para ejecutar las pruebas, cree una base de datos de prueba apra no interferir con la principal y en la ruta `/config/test.db.php` coloca el nombre de la base de datos luego  utiliza el siguiente comando:
+Para ejecutar las pruebas, cree una base de datos de prueba apra no interferir con la principal y en la ruta `/config/test_db.php` coloca el nombre de la base de datos luego  utiliza el siguiente comando:
 ```bash
 php tests/bin/yii migrate --interactive=0
 php vendor/bin/codecept run
@@ -62,3 +62,6 @@ php vendor/bin/codecept run
 
 3. **crear build y hacerlo disponible en el pryecto yii**
     Debera ubicarse en la ruta /frontend y ejecutar `npm run build` con esto se le generará los archivos transpilados para usar en en la vista yii, podrá hacer sus propias configuraciones desde los archivos fuentes pero debrá correr de nuevo `npm run build` para tener los cambios disponibles en yii, tambien pouede ejecutar el frontend independiente en modo de test con el comando `npm run dev`
+
+4. **Uso del frontend**
+    Si aun no no se han creado ningun resgitro mediante la api expuesta, podra agregarlos desde aquí. Deberà primero cargar al menos una categoria para poder ingresar sus productos.
